@@ -1,0 +1,28 @@
+ul {
+  list-style-type: none;
+}
+
+.header {
+    display:flex;
+    justify-content: space-between;
+}
+
+.header > ul {
+    display: flex;
+    gap: 20px;
+}
+
+.header, .title-block, .footer {
+    background-color: #1F2937;
+}
+
+.title-block{
+    display: flex;
+    justify-content: center;
+}
+
+.title-block h1 {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
